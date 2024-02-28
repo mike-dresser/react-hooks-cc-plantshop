@@ -20,20 +20,24 @@ function PlantPage() {
     fetch('http://localhost:6001/plants', {
       method: 'POST',
       headers: {
-        'content-type': 'application/json',
+        'Content-Type': 'Application/JSON',
       },
       body: JSON.stringify(plant),
     })
       .then((res) => res.json())
       .then((newPlantResponse) => setPlants([...plants, newPlantResponse]));
   }
+  const [search, setSearch] = useState('');
 
-  function onToggleInStock(plant) {}
+  let filteredPlants = plants.filter((plant) => {
+    return plant.name.toLowerCase().includes(search.toLowerCase());
+  });
+
   return (
     <main>
       <NewPlantForm onNewPlantSubmit={onNewPlantSubmit} />
-      <Search />
-      <PlantList plants={plants} onToggleInStock={onToggleInStock} />
+      <Search search={search} setSearch={setSearch} />
+      <PlantList plants={filteredPlants} />
     </main>
   );
 }

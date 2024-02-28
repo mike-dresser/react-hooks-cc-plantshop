@@ -4,55 +4,64 @@
       "id": 1,
       "name": "Aloe",
       "image": "./images/aloe.jpg",
-      "price": 15.99
+      "price": 15.99,
+      "stocked": true
     },
     {
       "id": 2,
       "name": "ZZ Plant",
       "image": "./images/zz-plant.jpg",
-      "price": 25.98
+      "price": 25.98,
+      "stocked": true
     },
     {
       "id": 3,
       "name": "Pilea peperomioides",
       "image": "./images/pilea.jpg",
-      "price": 5.99
+      "price": 5.99,
+      "stocked": true
     },
     {
       "id": 4,
       "name": "Pothos",
       "image": "./images/pothos.jpg",
-      "price": 12.11
+      "price": 12.11,
+      "stocked": true
     },
     {
       "id": 5,
       "name": "Jade",
       "image": "./images/jade.jpg",
-      "price": 10.37
+      "price": 10.37,
+      "stocked": true
     },
     {
       "id": 6,
       "name": "Monstera Deliciosa",
       "image": "./images/monstera.jpg",
-      "price": 25.99
+      "price": 25.99,
+      "stocked": true
     },
     {
       "id": 7,
       "name": "Fiddle Leaf Fig",
       "image": "./images/fiddle-leaf-fig.jpg",
-      "price": 55
+      "price": 55,
+      "stocked": true
     },
     {
       "name": "Hibiscus",
       "image": "https://assets.wfcdn.com/im/47369265/resize-h445%5Ecompr-r85/2385/238524876/American+Plant+Exchange+Hibiscus+Seminole+Pink+Bloom%2C+Large+Tropical+Live+Plant%2C+10-Inch+Pot%2C+Landscape+%26+Houseplant+W%2F+Direct+Light.jpg",
       "price": "39.99",
-      "id": 8
+      "id": 8,
+      "stocked": true
     },
     {
       "name": "Wisteria",
       "image": "https://assets.wfcdn.com/im/24602508/resize-h445%5Ecompr-r85/9047/90477612/77%27%27+Faux+Flowering+Tree+in+Pot.jpg",
       "price": "25.99",
-      "id": 9
+      "id": 9,
+      "stocked": true
     }
   ]
 }
