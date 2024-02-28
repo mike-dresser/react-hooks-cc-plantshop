@@ -4,15 +4,16 @@ function PlantCard({ plant: { id, name, image, price, stocked } }) {
   const [inStock, setInStock] = useState(stocked);
 
   function toggleInStock() {
-    fetch('http://localhost:6001/plants/' + id, {
-      method: 'PATCH',
-      headers: {
-        'Content-Type': 'Application/JSON',
-      },
-      body: JSON.stringify({ stocked: !inStock }),
-    })
-      .then((res) => res.json())
-      .then((updatedPlant) => setInStock(updatedPlant.stocked));
+    // fetch('http://localhost:6001/plants/' + id, {
+    //   method: 'PATCH',
+    //   headers: {
+    //     'Content-Type': 'Application/JSON',
+    //   },
+    //   body: JSON.stringify({ stocked: !inStock }),
+    // })
+    //   .then((res) => res.json())
+    //   .then((updatedPlant) => setInStock(updatedPlant.stocked));
+    setInStock(!inStock);
   }
 
   return (
