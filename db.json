@@ -41,6 +41,18 @@
       "name": "Fiddle Leaf Fig",
       "image": "./images/fiddle-leaf-fig.jpg",
       "price": 55
+    },
+    {
+      "name": "Hibiscus",
+      "image": "https://assets.wfcdn.com/im/47369265/resize-h445%5Ecompr-r85/2385/238524876/American+Plant+Exchange+Hibiscus+Seminole+Pink+Bloom%2C+Large+Tropical+Live+Plant%2C+10-Inch+Pot%2C+Landscape+%26+Houseplant+W%2F+Direct+Light.jpg",
+      "price": "39.99",
+      "id": 8
+    },
+    {
+      "name": "Wisteria",
+      "image": "https://assets.wfcdn.com/im/24602508/resize-h445%5Ecompr-r85/9047/90477612/77%27%27+Faux+Flowering+Tree+in+Pot.jpg",
+      "price": "25.99",
+      "id": 9
     }
   ]
 }
