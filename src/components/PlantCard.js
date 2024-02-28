@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 
 function PlantCard({ plant: { id, name, image, price, stocked } }) {
-  const [inStock, setInStock] = useState(stocked);
+  // const [inStock, setInStock] = useState(stocked);
+  const [inStock, setInStock] = useState(true);
 
   function toggleInStock() {
     // fetch('http://localhost:6001/plants/' + id, {
